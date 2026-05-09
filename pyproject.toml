@@ -1,0 +1,22 @@
+[project]
+name = "web-scraping-lecture"
+version = "0.1.0"
+description = "Web scraping demo for PhD students — beginner to intermediate"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "pandas>=2.1",
+    "tqdm>=4.66",
+    "selenium>=4.20",
+    "webdriver-manager>=4.0",
+    "jupyterlab>=4.0",
+    "ipykernel>=6.29",
+    "yfinance>=0.2.40"
+]
+
+[tool.uv]
+# uv-specific settings (optional — defaults are usually fine)
+dev-dependencies = []

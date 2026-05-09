@@ -1,0 +1,29 @@
+# uv
+.venv/
+.python-version
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Data outputs (keep the dirs, ignore contents)
+data/raw/*
+!data/raw/.gitkeep
+
+# IDE / editors
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Selenium driver cache
+.wdm/
+
+# Jupyter
+.jupyter/
+
+# OS
+Thumbs.db
